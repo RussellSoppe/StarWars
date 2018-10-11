@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+
+.background {
+  position: absolute;
+  height: 300%;
+  width: 100%;
+  background-color: gray;
+  background-image: url("https://3c1703fe8d.site.internapcdn.net/newman/gfx/news/hires/2018/universe.jpg")
+ /* padding: left 0;
+  padding: top 0;*/
+}
+
+.header {
+  text-align: center;
+  position: relative;
+  height: 200px;
+  width: 100%;
+  color: white;
+  font-size: 50px;
+  padding-top: 25px;
+
+  /*background-color: purple;
+  background-image: url("https://3c1703fe8d.site.internapcdn.net/newman/gfx/news/hires/2018/universe.jpg")*/
+ }
+
+.card {
+  position: relative;
+  height:auto;
+  width: auto;
+  background: rgba(204, 204, 204, 0.5);
+
+}
+
+.accordion {
+  background: rgba(204, 204, 204, 0.5);
+}
+
+.accordionitem {
+  background: rgba(204, 204, 204, 0.5);
+  padding-bottom: 5px;
+  padding-top: 3px;
+}
+
+h2 {
+  color: black;
+  text-shadow:
+    -1px -1px 0 #ffd700,
+    1px -1px 0 #ffd700,
+    -1px 1px 0 #ffd700,
+    1px 1px 0 #ffd700;
+
+}
+
+.bio {
+  color: black;
+}
+
+p {
+  color: black;
+  /*text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;*/
+}
+
+.pages{
+  position: relative;
+  color: white;
+  text-shadow:
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
+}
+
+.pagebuttons {
+  position: relative;
+  /*height: 200px;
+  width: 100%;*/
+  /*color: white;
+  font-size: 50px;*/
+ /* padding-top: 25px;*/
+}
