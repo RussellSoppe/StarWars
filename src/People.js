@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Header from './Header';
-import Cardlist from './Cardlist';
+import PeopleCardList from './PeopleCardList';
 
 
 
@@ -73,7 +73,7 @@ componentDidMount(){
        <div>
         <Header headername={"People of Star Wars"}/>
           <div>
-            <Cardlist array = {changeMe}/>
+            <PeopleCardList array = {changeMe}/>
           </div>
           <PagesBttn page={(i) => this.pageChange(i)}/>
       </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Accordion, AccordionItem } from 'react-sanfona';
 
-const Card = ({ name, id, bday, height, eyecolor }) => {
+const PeopleCard = ({ name, id, bday, height, eyecolor }) => {
   // const { name, email, id } = props; can add as const or put in function as seen
   return (
     <div className='card'>
@@ -28,4 +28,4 @@ const Card = ({ name, id, bday, height, eyecolor }) => {
     );
 }
 
-export default Card;
+export default PeopleCard;
