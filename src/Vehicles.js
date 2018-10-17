@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Header from './Header'
-import Cardlist from './Cardlist';
+import VehicleCardList from './VehicleCardList';
 
 
 const PagesBttn = (props) => {
@@ -61,7 +61,7 @@ pageChange (i) {
        <div>
         <Header headername={"Vehicles of Star Wars"}/>
           <div>
-            <Cardlist array = {changeMe}/>
+            <VehicleCardList array = {changeMe}/>
           </div>
           <PagesBttn page={(i) => this.pageChange(i)}/>
       </div>

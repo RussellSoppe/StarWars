@@ -1,7 +1,7 @@
 import React from 'react';
 import { Accordion, AccordionItem } from 'react-sanfona';
 
-const Card = ({ name, id, bday, height, eyecolor }) => {
+const PlanetCard = ({ name, id, rotationp, orbitalp, diameter, climate, gravity }) => {
   // const { name, email, id } = props; can add as const or put in function as seen
   return (
     <div className='card'>
@@ -14,9 +14,11 @@ const Card = ({ name, id, bday, height, eyecolor }) => {
               
                 <AccordionItem key={item} className="bio" title={`Info`} expanded={item === 0}>
                   <div className='accordionitem'>
-                    <p>Birthday: {bday}</p>
-                    <p>Height: {height}</p>
-                    <p>Eye Color: {eyecolor}</p>
+                    <p>Rotation Period: {rotationp}</p>
+                    <p>Orbital Period: {orbitalp}</p>
+                    <p>Diameter: {diameter}</p>
+                    <p>Climate: {climate}</p>
+                    <p>Gravity: {gravity}</p>
                   </div>
                 </AccordionItem>
              	 );
@@ -28,4 +30,4 @@ const Card = ({ name, id, bday, height, eyecolor }) => {
     );
 }
 
-export default Card;
+export default PlanetCard;
